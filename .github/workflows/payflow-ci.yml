@@ -3,7 +3,8 @@ name: Payflow CI File
 on:
   push:
     branches: [main, develop]
-
+  pull_request:
+    branches: [main]
 
 jobs:
   test:
